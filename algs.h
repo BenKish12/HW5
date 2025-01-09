@@ -19,5 +19,7 @@ typedef enum {
  * int func_name(const unsigned char *data_in, unsigned int size_in, unsigned
  * char *data_out, unsigned int size_out);
  */
+int enc_0(const unsigned char *data_in, unsigned int size_in, unsigned char *data_out, unsigned int size_out);
+
 
 #endif //__algs_H__
